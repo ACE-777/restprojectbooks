@@ -95,7 +95,7 @@ def return_unic_review(book_review_id: int):
 
 
 def start():
-    uvicorn.run("main:app", host="0.0.0.0", port=8080, log_level="info")
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, log_level="info")
 
 
 generateBooks()
